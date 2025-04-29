@@ -1,6 +1,8 @@
 # IntelliJ Config
 .idea
 
+/Users/alexandramcintyre/Desktop/cs1300/study-spot-generator-aemcinty-khluo-moancea-nclarke1/server/src/main/java/edu/brown/cs/student/main/server/resources/firebase_config.json
+
 # Maven
 target/
 .mvn
@@ -17,6 +19,7 @@ dist/
 test-results/
 playwright-report/
 playwright/.cache/
+
 
 # mac
 .DS_Store
