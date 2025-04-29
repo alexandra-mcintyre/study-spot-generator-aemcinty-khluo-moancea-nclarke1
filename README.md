@@ -1,1 +1,1 @@
-# study-spot-generator-aemcinty-khluo-moancea-nclarke1
+# term-project
