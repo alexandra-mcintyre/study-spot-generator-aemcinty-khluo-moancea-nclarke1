@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+    color: black;
+    font-size: 15px;
+}
+
+body {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.createform {
+    /* width: 600px; */
+    /* margin-left: 200px; */
+    /* margin-right: 0x; */
+    text-align: center;
+    /* color: #ce93e9; */
+    /* border: 1px; */
+    border-style: solid;
+    padding: 50px;
+    
+}
+
+.createform input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.createform button {
+    background: #0096FF;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+:root{
+    --color-dark: #ce93e9;
+    --color-light: #F3F3F2;
+}
+
+#main{
+    display: flex;
+    height: 100vh;
+}
+
+.hRow {
+    margin: auto;
+  width: 38%;
+    font-size: 25px;
+  padding: 10px;
+  text-align:center;
+}
+
+.board .leaderboard{
+    /* margin-bottom: 50px; */
+    font-size: 90px;
+    font-style: black bold;
+    /* border: 15px solid white; */
+    text-align: center;
+}
+
+.info{
+    /* margin-bottom: 50px; */
+    font-size: 50px;
+    font-style: black bold;
+    /* border: 15px solid white; */
+    text-align: center;
+}
+
+.info-description {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#profile {
+    max-width: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    color: #ce93e9;
+    border: 1px;
+    border-style: solid;
+    padding: 50px;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+#profile .flex .item{
+    display: flex;
+    align-items: center;
+}
+
+#profile .flex .item span{
+    font-size: 5px;
+}
+
+#profile .flex img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#profile .flex .info{
+   padding: 1em;
+   font-size: 10px;
+}
+
+.text-dark{
+    color: var(--color-dark);
+}
+
+.endbar {
+    background-color: rgba(210, 191, 191, 0.5);
+    content: center;
+    
+}
